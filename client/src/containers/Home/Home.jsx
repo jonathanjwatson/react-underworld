@@ -20,7 +20,7 @@ class Home extends Component {
             <div className="row center">
                 <div className="col-sm-4">
                     <div class="card">
-                        <img className="card-img-top" src={JestImage} alt="Card image cap"/>
+                        <img className="card-img-top" src={JestImage} alt="Jest Land"/>
                         <div className="card-body">
                             <h5 className="card-title">Jest Land</h5>
                             <p className="card-text">Some quick example text to build on the card title and
@@ -53,34 +53,34 @@ class Home extends Component {
                 </div>
                 <div className="col-sm-4">
                     <div class="card">
-                        <img className="card-img-top" src={JestImage} alt="Card image cap"/>
+                        <img className="card-img-top" src={JestImage} alt="CSS"/>
                         <div className="card-body">
-                            <h5 className="card-title">Jest Land</h5>
+                            <h5 className="card-title">CSS Land</h5>
                             <p className="card-text">Some quick example text to build on the card title and
                                 make up the bulk of the card's content.</p>
-                            <Link to="/jest-land" className="btn btn-danger">Jest Land</Link>
+                            <Link to="/css-land" className="btn btn-danger">CSS Land</Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-4">
                     <div class="card">
-                        <img className="card-img-top" src={StateImage} alt="State"/>
+                        <img className="card-img-top" src={StateImage} alt="Authorization"/>
                         <div className="card-body">
-                            <h5 className="card-title">State Land</h5>
+                            <h5 className="card-title">Authorization Land</h5>
                             <p className="card-text">Some quick example text to build on the card title and
                                 make up the bulk of the card's content.</p>
-                            <Link to="/state-land" className="btn btn-danger">State Land</Link>
+                            <Link to="/authorization-land" className="btn btn-danger">Authorization Land</Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-4">
                     <div class="card">
-                        <img className="card-img-top" src={AudioImage} alt="Audio"/>
+                        <img className="card-img-top" src={AudioImage} alt="Author"/>
                         <div className="card-body">
                             <h5 className="card-title">Audio Land</h5>
                             <p className="card-text">Some quick example text to build on the card title and
                                 make up the bulk of the card's content.</p>
-                            <Link to="/audio-land" className="btn btn-danger">Audio Land</Link>
+                            <Link to="/authorization-land" className="btn btn-danger">Audio Land</Link>
                         </div>
                     </div>
                 </div>
