@@ -1,0 +1,29 @@
+{
+  "name": "react-underworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd client && yarn test",
+    "dev": "concurrently \"nodemon server.js\" \"cd ./client  && yarn start \" ",
+    "postinstall": "cd client && yarn install && yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanjwatson/react-underworld.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanjwatson/react-underworld/issues"
+  },
+  "homepage": "https://github.com/jonathanjwatson/react-underworld#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "concurrently": "^4.0.1",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5"
+  }
+}

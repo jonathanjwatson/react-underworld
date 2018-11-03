@@ -1,0 +1,10 @@
+#darkForest{
+    background-image: url('../../images/dark-forest.jpg');
+}
+.jumbotron h1{
+    color: white;
+}
+.jumbotron p{
+    color: white;
+    -webkit-text-stroke: 2px white;
+}
