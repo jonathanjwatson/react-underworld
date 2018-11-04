@@ -8,3 +8,7 @@
     color: white;
     -webkit-text-stroke: 2px white;
 }
+.home-content{
+    padding-bottom:2em;
+    background-color: #f8f8f8;
+}

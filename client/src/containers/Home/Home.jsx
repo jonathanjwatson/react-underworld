@@ -3,6 +3,9 @@ import {Link} from 'react-router-dom';
 import StateImage from '../../images/state.png';
 import JestImage from '../../images/jest.jpg';
 import AudioImage from '../../images/audio.jpg';
+import CSSImage from '../../images/css.png';
+import AuthorizationImage from '../../images/authorization.png';
+import APIImage from '../../images/api.png';
 import './Home.css';
 
 class Home extends Component {
@@ -17,70 +20,70 @@ class Home extends Component {
                     <p>Only by completing these advanced challenges can you return the balance of power to the forces of Good!</p>
                 </div>
             </div>
-            <div className="row center">
+            <div className="row center home-content">
                 <div className="col-sm-4">
-                    <div class="card">
-                        <img className="card-img-top" src={JestImage} alt="Jest Land"/>
+                    <div className="card">
+                    <Link to="/jest-land" className="btn btn-dark"><img className="card-img-top" src={JestImage} alt="Jest Land"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">Jest Land</h5>
                             <p className="card-text">Some quick example text to build on the card title and
                                 make up the bulk of the card's content.</p>
-                            <Link to="/jest-land" className="btn btn-danger">Jest Land</Link>
+                            <Link to="/jest-land" className="btn btn-dark">Jest Land</Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-4">
-                    <div class="card">
-                        <img className="card-img-top" src={StateImage} alt="State"/>
+                    <div className="card">
+                    <Link to="/state-land" className="btn btn-dark"><img className="card-img-top" src={StateImage} alt="State"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">State Land</h5>
                             <p className="card-text">Some quick example text to build on the card title and
                                 make up the bulk of the card's content.</p>
-                            <Link to="/state-land" className="btn btn-danger">State Land</Link>
+                            <Link to="/state-land" className="btn btn-dark">State Land</Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-4">
-                    <div class="card">
-                        <img className="card-img-top" src={AudioImage} alt="Audio"/>
+                    <div className="card">
+                    <Link to="/audio-land" className="btn btn-dark"><img className="card-img-top" src={AudioImage} alt="Audio"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">Audio Land</h5>
                             <p className="card-text">Some quick example text to build on the card title and
                                 make up the bulk of the card's content.</p>
-                            <Link to="/audio-land" className="btn btn-danger">Audio Land</Link>
+                            <Link to="/audio-land" className="btn btn-dark">Audio Land</Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-4">
-                    <div class="card">
-                        <img className="card-img-top" src={JestImage} alt="CSS"/>
+                    <div className="card">
+                    <Link to="/css-land" className="btn btn-dark"><img className="card-img-top" src={CSSImage} alt="CSS"/></Link>
                         <div className="card-body">
                             <h5 className="card-title">CSS Land</h5>
                             <p className="card-text">Some quick example text to build on the card title and
                                 make up the bulk of the card's content.</p>
-                            <Link to="/css-land" className="btn btn-danger">CSS Land</Link>
+                            <Link to="/css-land" className="btn btn-dark">CSS Land</Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-4">
-                    <div class="card">
-                        <img className="card-img-top" src={StateImage} alt="Authorization"/>
+                    <div className="card">
+                    <Link to="/authorization-land" className="btn btn-dark"><img className="card-img-top" src={AuthorizationImage} alt="Authorization"/></Link>
                         <div className="card-body">
-                            <h5 className="card-title">Authorization Land</h5>
+                            <h5 className="card-title">Authorization</h5>
                             <p className="card-text">Some quick example text to build on the card title and
                                 make up the bulk of the card's content.</p>
-                            <Link to="/authorization-land" className="btn btn-danger">Authorization Land</Link>
+                            <Link to="/authorization-land" className="btn btn-dark">Authorization Land</Link>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-4">
-                    <div class="card">
-                        <img className="card-img-top" src={AudioImage} alt="Author"/>
+                    <div className="card">
+                    <Link to="/api-land" className="btn btn-dark"><img className="card-img-top" src={APIImage} alt="API"/></Link>
                         <div className="card-body">
-                            <h5 className="card-title">Audio Land</h5>
+                            <h5 className="card-title">API Land</h5>
                             <p className="card-text">Some quick example text to build on the card title and
                                 make up the bulk of the card's content.</p>
-                            <Link to="/authorization-land" className="btn btn-danger">Audio Land</Link>
+                            <Link to="/api-land" className="btn btn-dark">API Land</Link>
                         </div>
                     </div>
                 </div>
