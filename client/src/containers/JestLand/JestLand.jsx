@@ -2,6 +2,15 @@ import React, { Component } from 'react';
 import Header from '../../components/Header/Header';
 
 class JestLand extends Component {
+
+    constructor(){
+        super()
+        this.state = {
+            currentTime: ''
+        }
+    }
+
+    //TODO: 
     render() {
         return (
             <div className="row center">

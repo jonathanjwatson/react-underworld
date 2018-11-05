@@ -3,6 +3,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const jwt = require('jsonwebtoken');
+const playerController = require('./controllers/playerController');
 
 app.use(bodyParser.json());
 
@@ -20,6 +21,7 @@ app.get('/api/authorization', async(req, res) => {
   }
 });
 
+app.use('/api/playerstats', playerController);
 
 app.use(express.static(__dirname + '/client/build/'));
 app.get('*', (req,res) => {
