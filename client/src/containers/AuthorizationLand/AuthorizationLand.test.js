@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow, configure } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import APILand from './APILand';
+import AuthorizationLand from './AuthorizationLand';
 
 configure({ adapter: new Adapter() });
 
 describe('renders', () => {
-  const wrapper = shallow(<APILand />);
+  const wrapper = shallow(<AuthorizationLand />);
 
   describe('h1', () => {
       it('exists', () => {
