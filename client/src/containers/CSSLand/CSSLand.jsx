@@ -13,7 +13,7 @@ class CSSLand extends Component {
                 <p>Style CSS 2 to match CSS 1</p>
                 <p>Points are as follows: </p>
                 <ul>
-                    <li>Playing a sound from the component: 4,000 pts</li>
+                    <p>Playing a sound from the component: 4,000 pts</p>
                 </ul>
                 <Link to="/css-land/1">First Page</Link>
                 <Link to="/css-land/2">Second Page</Link>

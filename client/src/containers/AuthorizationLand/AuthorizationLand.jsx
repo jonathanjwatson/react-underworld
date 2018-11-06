@@ -1,21 +1,25 @@
 import React, { Component } from 'react';
 import Header from '../../components/Header/Header';
 import axios from 'axios';
+import jwt from 'jsonwebtoken';
 
 class AuthorizationLand extends Component {
 
     componentDidMount(){
-        //TODO: Create an object with the necromancer's name and password (HINT: Check the Server for the expected values).
+        let necromancerObject = {
+            name: '',
+            password: ''
+        }
         //TODO: Sign object with a JWT and the string (HINT: secret MUST be pulled in as env var)
-        let token = '';
+        let token = jwt.sign(necromancerObject, 'myJWTSecretString');
         axios({
             method: "GET",
             url: "/api/authorization",
             headers: {'Authorization': token}
         })
         .then((response) => {
-            
             console.log(response);
+            alert(response.data);
         })
         .catch((err) => {
             alert("You're unauthorized!");
@@ -29,8 +33,8 @@ class AuthorizationLand extends Component {
                 <p>You are not authorized to leave this dungeon! You're going to need to pretend to be the necromancer to get out. </p>
                 <p>Points are as follows: </p>
                 <ul>
-                    <li>100% Code Coverage for JestLand: 1,000 pts</li>
-                    <li>100% Code Coverage for the App: 5,000 pts</li>
+                    <p>100% Code Coverage for JestLand: 1,000 pts</p>
+                    <p>100% Code Coverage for the App: 5,000 pts</p>
                 </ul>
             </div>
         );

@@ -19,8 +19,8 @@ class JestLand extends Component {
                 <p>To get past this land, you'll need 100% code coverage.</p>
                 <p>Points are as follows: </p>
                 <ul>
-                    <li>100% Code Coverage for JestLand: 1,000 pts</li>
-                    <li>100% Code Coverage for the App: 5,000 pts</li>
+                    <p>100% Code Coverage for JestLand: 1,000 pts</p>
+                    <p>100% Code Coverage for the App: 5,000 pts</p>
                 </ul>
             </div>
         );
