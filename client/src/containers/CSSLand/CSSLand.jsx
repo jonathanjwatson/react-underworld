@@ -10,10 +10,10 @@ class CSSLand extends Component {
             <Header/>
                 <h1>Something has gone horribly wrong!</h1>
                 <p>CSS 1 is looking great! But CSS 2 is terrible! </p>
-                <p>Style CSS 2 to match CSS 1</p>
+                <p>CSS 1 uses inline styles to design the component. YUCK! <br/>Use classes and ids to style CSS 2 and match the design.</p>
                 <p>Points are as follows: </p>
                 <ul>
-                    <p>Playing a sound from the component: 4,000 pts</p>
+                    <p>Duplicating the page's style: 3,000 pts</p>
                 </ul>
                 <Link to="/css-land/1">First Page</Link>
                 <Link to="/css-land/2">Second Page</Link>
