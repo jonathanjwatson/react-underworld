@@ -7,7 +7,7 @@ class APILand extends Component {
     constructor() {
         super()
         this.state = {
-            myData: [
+            players: [
                 {
                     playerName: 'Merlin',
                     playerRank: 'Wizard',
@@ -34,7 +34,7 @@ class APILand extends Component {
     //TODO: make the function call /api/playerstats
     //TODO: take the response and set it on state
     //TODO: Bonus: manipulate the response to match existing data names.
-    
+   
 
     render() {
         return (
@@ -58,10 +58,7 @@ class APILand extends Component {
                 </div>
                 <div className="container">
                     <div className="row center">
-                        {this
-                            .state
-                            .myData
-                            .map((banana, i) => {
+                        {this.state.players.map((banana, i) => {
                                 return <div key={i} className="col-sm-3 player-card">
                                     <h1>Name: {banana.playerName}</h1>
                                     <h2>Rank: {banana.playerRank}</h2>
