@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cd client && yarn test",
-    "dev": "concurrently \"nodemon server.js\" \"cd ./client  && yarn start \" ",
+    "start:local": "concurrently \"nodemon server.js\" \"cd ./client  && yarn start \" ",
     "postinstall": "cd client && yarn install && yarn build"
   },
   "repository": {

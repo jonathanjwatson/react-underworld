@@ -11,7 +11,7 @@ class AudioLand extends Component {
                 <p>Hint: You'll probably want to use an npm package AND you'll have to eject your webpack.</p>
                 <p>Points are as follows: </p>
                 <ul>
-                    <p>Playing a sound from the component: 4,000 pts</p>
+                    <p><strong> Playing a sound from the component:</strong>  4,000 pts</p>
                 </ul>
             </div>
         );

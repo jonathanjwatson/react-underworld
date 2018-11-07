@@ -50,10 +50,10 @@ class APILand extends Component {
                     </p>
                     <p>Points are as follows:
                     </p>
-                    <ul className="container left">
-                        <p>Successfully make the API Call: 1,000 pts</p>
-                        <p>Set State with response: 1,000 pt</p>
-                        <p>Write a function to transform incoming data to the proper format: 1,000 pt</p>
+                    <ul className="container center">
+                        <p><strong>Successfully make the API Call:</strong> 1,000 pts</p>
+                        <p><strong>Set State with response:</strong>  1,000 pt</p>
+                        <p><strong>Write a function to transform incoming data to the proper format:</strong>  1,000 pt</p>
                     </ul>
                 </div>
                 <div className="container">

@@ -28,9 +28,9 @@ class StateLand extends Component {
                 <p>This dark land has two trees. The tree on the left has props passed all the way down, just so it can display a single value. Use a state management tool of your choice to pass the value directly into the final component.<br />I'm auto-generating a new value to state with each button click. So no cheating!</p>
                 <p>Points are as follows: </p>
                 <ul>
-                    <p>React Context API: 3,000 pts</p>
-                    <p>Alernative State Management: 2,000 pts</p>
-                    <p>Redux: -5,000 pts (seriously, just don't do it)</p>
+                    <p><strong> React Context API:</strong>  3,000 pts</p>
+                    <p><strong> Alernative State Management:</strong>  2,000 pts</p>
+                    <p><strong> Redux:</strong>  -5,000 pts (seriously, just don't do it)</p>
                 </ul>
                 <button onClick={this.randomValueGenerator} className="btn btn-primary">Generate Random Number </button>
                 <div className="row">

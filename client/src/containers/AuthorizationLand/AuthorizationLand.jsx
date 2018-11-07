@@ -33,8 +33,8 @@ class AuthorizationLand extends Component {
                 <p>You are not authorized to leave this dungeon! You're going to need to pretend to be the necromancer to get out. </p>
                 <p>Points are as follows: </p>
                 <ul>
-                    <p>100% Code Coverage for JestLand: 1,000 pts</p>
-                    <p>100% Code Coverage for the App: 5,000 pts</p>
+                    <p><strong> Successfully make the API call:</strong>  1,000 pts</p>
+                    <p><strong> Sign your secret with a process.env variable:</strong>  4,000 pts</p>
                 </ul>
             </div>
         );

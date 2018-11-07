@@ -30,8 +30,8 @@ class JestLand extends Component {
                     <p>Points are as follows:
                     </p>
                     <ul>
-                        <p>100% Code Coverage for JestLand: 1,000 pts</p>
-                        <p>100% Code Coverage for the App: 5,000 pts</p>
+                        <p><strong> 100% Code Coverage for JestLand:</strong>  1,000 pts</p>
+                        <p><strong> 100% Code Coverage for the App:</strong>  5,000 pts</p>
                     </ul>
                 </div>
                 <div className="container center">
