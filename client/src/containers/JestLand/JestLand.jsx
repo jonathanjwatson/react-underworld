@@ -11,13 +11,22 @@ class JestLand extends Component {
         }
     }
 
-    componentDidMount() {
+    getCurrentTime = () => {
         let startTime = Date.now();
-        let remainder = (startTime % 2);
-        console.log(remainder);
         console.log(startTime);
-        this.setState({startTime, remainder});
+        this.setState({startTime});
     };
+
+    getRemainder = () => {
+        let remainder = (this.state.startTime % 2);
+        console.log(remainder);
+        this.setState({remainder});
+    };
+
+    handleClick = async() => {
+        await this.getCurrentTime();
+        await this.getRemainder();
+    }
 
     //TODO:
     render() {
@@ -35,10 +44,10 @@ class JestLand extends Component {
                     </ul>
                 </div>
                 <div className="container center">
-                    {(this.state.remainder === 0) && <div><h2>Zero</h2></div>}
+                    {(this.state.remainder === 0) ? <div><h2>Zero</h2></div> : <div><h2>One</h2></div>}
                 </div>
                 <div className="container center">
-                    {(this.state.remainder === 1) && <div><h2>One</h2></div>}
+                    <button className="btn btn-dark" onClick={this.handleClick}>Update Current Time</button>
                 </div>
             </Fragment>
         );
